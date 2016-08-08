@@ -7,3 +7,5 @@ Now test some push events
 now more
 
 and more
+
+print out payload
