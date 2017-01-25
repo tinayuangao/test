@@ -42,3 +42,7 @@ cache:
   directories:
     - node_modules
     - $HOME/.pub-cache
+    
+addons:
+  jwt:
+    secure: "funKN05yYxLgZNCHX+rduZ4jUcNjLXmHejfNFEKkoxrc1JXC0DIupaz8X/7IUUBxFbJsqQVI7T812jWgI4+003s8hxcgy263Fs/ieh3VLWRCYAkyMautkUyidm+1ZDJWhEPU/7heCQxFKs8AY40tN+oYfb7qor+pceCKqrZ0wiXML+gJ/NrOogaJCydPC79jRJojlVOfqNc+V2caZBtzvwkR85tZO3UQGAhoeHpa9JB2Z2hrMSaTIIphuw4wR9FAR79HtSc6OOkEFGJ0n41Tw1JfnRKdZ6n/QRcYs0NI1mELA6GNNtB2Xp2LNw+8B8xXELKkIIxkZmmMEAbM+EniWwNPljuIaMBmiIPlD3/Ig7sf/BRnUs6/cTNMStal2WnG9h7xhziFWv2jEBh6TJF+uAQ1/BGL4ByxI37iJSwk4Ph32/YnefcY+Ppx/JqoWqGnt8YUMce1ZqlSOrDfP+U5XJTBfRdonUOig8OGVcZFFnNC0ch8mVV5aYoYGkW5UIxYV3ZP38vmR7Vzw0j7H7+eOenpUkopGh74sH0k18M/FIpWdaTFjQgCYFnbR4APol2VQ8YhSLX09s/F0E9w6wNt747KEVQonQF8/pjqmCKfPrvqqH5Xiq1SuCk6O/URzxJ6eKc1Vo2mmQh8fpTTXhnC8VUjSWPilscGEGty1b2ghYk="
