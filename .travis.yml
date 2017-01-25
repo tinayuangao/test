@@ -34,6 +34,7 @@ addons:
 before_install:
     - echo $MATERIAL2_SCREENSHOT_FIREBASE_KEY
     - echo $MATERIAL2
+    - echo $SAUCE_ACCESS_KEY
     - export | grep MATERIAL
 matrix:
   fast_finish: true
