@@ -34,12 +34,12 @@ addons:
 
 before_install:
     - openssl aes-256-cbc -K $encrypted_00d1b1cb481a_key -iv $encrypted_00d1b1cb481a_iv -in material2-screenshots-firebase-adminsdk-t4209-9d21f47567.json.enc -out material2-screenshots-firebase-adminsdk-t4209-9d21f47567.json 
+    - echo 'special'
     - test -e material2-screenshots-firebase-adminsdk-t4209-9d21f47567.json
     - echo $MATERIAL2_SCREENSHOT_FIREBASE_KEY
     - echo $MATERIAL2
     - echo $SAUCE_ACCESS_KEY
     - echo $THIRDPARTY_SHARED_SECRET
-    - export | grep MATERIAL
 matrix:
   fast_finish: true
 
