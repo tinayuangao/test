@@ -34,6 +34,7 @@ addons:
     - secure: "G+S8wWV+SwQlIBjr4b+nrEdUUfsi6EiTHov9ddfHtnE4ZeNLUySsXhPt9NCqGXGACK1d+UTl/qdX8NJIaO4y3Z++YyXBnwj80tAMeUpJOwZ10qhSniPbFmzX22dyj4iFqG4kJPgQT8gWzqO9Wxq3aZSTCCrBngZstb8UBrbVZHAcFt4AG9RRax78r+Lm+B3W71oimX/dLEF4bYuT/vMvGwzFU3+MyCAha0m+ITsR8z1mYxbsLyHduM7azyKbeSAPFP+yUkG6qoUyECFtkGur/l699EVa0XPG1TCekYgr8WbUvvQtvqAil5at9FJ0jGLmub6DfNXiS7EWsdvMGJk2E6yfmb7o2Wt/GIVBzbFwoIR7xIVSW2UsrN1FAfAzQJnHXxOp6pXn7I8EoEUc+TwEqOfrR/scpXzKDCX+9w+pRwNKZO48AFuZYHcbzc2N4whSqytPP4gowAL+Irr/wov2CAlYKtaoEQWp6LlCLDHcFKB9W7uuKCC62RNpxrEVHOA7eX7LXsDm4cnMYsX8xkENd47ol1vxoDJQVAVWKClpYPWLu/EgF0BsoU0W9Vf0W5fcTU7OVYQsVggFDeghftY/i2DsS9T3dg7p6BVDiO4VK9r8CWAhJVVXSi29Surr1UQ2IYztR9KTVZPjL7k+vpnjabz9mAoOVCLKVdy6bWMFG+g="
 
 before_install:
+    - echo $TRAVIS_SECURE_ENV_VARS
     - openssl aes-256-cbc -K $encrypted_00d1b1cb481a_key -iv $encrypted_00d1b1cb481a_iv -in material2-screenshots-firebase-adminsdk-t4209-9d21f47567.json.enc -out material2-screenshots-firebase-adminsdk-t4209-9d21f47567.json 
     - echo 'special'
     - test -e material2-screenshots-firebase-adminsdk-t4209-9d21f47567.json
