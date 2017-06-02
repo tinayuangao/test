@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "description": "test",
+  "homepage": "test",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tinayuangao/test.git"
+  },
+  "scripts": {
+  },
+  "version": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 5.4.1 < 7"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "firebase-tools": "^3.9.0"
+  }
+}
