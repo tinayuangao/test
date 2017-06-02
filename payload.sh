@@ -3,7 +3,7 @@
 
 PROJECT_NAME='tina-material-tree'
 date=`date +%Y-%m-%d`
-payloadData='{special: $TRAVIS_COMMIT}'
+payloadData="{special: $TRAVIS_COMMIT}"
 TOKEN=$FIREBASE_TOKEN
 
 echo $date
