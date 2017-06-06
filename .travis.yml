@@ -39,7 +39,8 @@ before_install:
     - echo $MATERIAL2
     - echo $SAUCE_ACCESS_KEY
     - echo $THIRDPARTY_SHARED_SECRET
-    - export | grep MATERIAL
+    - gzip --help
+    
 matrix:
   fast_finish: true
 
