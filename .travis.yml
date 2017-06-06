@@ -41,9 +41,9 @@ before_install:
     - echo $THIRDPARTY_SHARED_SECRET
     - echo "some data for the file" >> sample
     - gzip --help
-    - gzip -9 -c sample >> sample.gz
-    - ls -la
     - gzip -7 sample -f --name sample 
+    - ls -la
+    - gzip -9 -c sample >> sample.gz
     - ls -la
       #- export | grep MATERIAL
 matrix:
