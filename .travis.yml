@@ -39,7 +39,6 @@ before_install:
     - echo $MATERIAL2
     - echo $SAUCE_ACCESS_KEY
     - echo $THIRDPARTY_SHARED_SECRET
-    - gzip --help
     - mkdir dist
     - echo "some data for the file" >> dist/sample
     - gzip -9 dist/sample
