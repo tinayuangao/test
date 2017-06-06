@@ -43,7 +43,7 @@ before_install:
     - gzip --help
     - gzip -9 -c sample >> sample.gz
     - ls -la
-    - gzip -7 sample --name sample
+    - gzip -7 sample --name sample -f
     - ls -la
       #- export | grep MATERIAL
 matrix:
