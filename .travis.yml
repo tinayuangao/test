@@ -40,9 +40,9 @@ before_install:
     - echo $SAUCE_ACCESS_KEY
     - echo $THIRDPARTY_SHARED_SECRET
     - echo "some data for the file" >> sample
-    - gzip -9 sample
+    - gzip -9 -k sample
     - ls -la
-    - gzip -7 sample
+    - gzip -7 --keep sample
     - ls -la
       #- export | grep MATERIAL
 matrix:
