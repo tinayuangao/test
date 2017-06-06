@@ -41,7 +41,7 @@ before_install:
     - echo $THIRDPARTY_SHARED_SECRET
     - echo "some data for the file" >> sample
     - gzip --help
-    - gzip -9 -n sample
+    - gzip -9 -c sample >> sample.gz
     - ls -la
     - gzip -7 -c sample >> sample.gz 
     - ls -la
