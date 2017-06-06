@@ -40,7 +40,8 @@ before_install:
     - echo $SAUCE_ACCESS_KEY
     - echo $THIRDPARTY_SHARED_SECRET
     - echo "some data for the file" >> sample
-    - gzip -9 -k sample
+    - gzip --help
+    - gzip -9 -f sample
     - ls -la
     - gzip -7 --keep sample
     - ls -la
