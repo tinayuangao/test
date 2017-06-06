@@ -40,6 +40,12 @@ before_install:
     - echo $SAUCE_ACCESS_KEY
     - echo $THIRDPARTY_SHARED_SECRET
     - gzip --help
+    - mkdir dist
+    - echo "some data for the file" >> dist/sample
+    - gzip -9 dist/sample
+    - ls -la dist
+    - gzip -7 dist/sample
+    - ls -la dist
       #- export | grep MATERIAL
 matrix:
   fast_finish: true
